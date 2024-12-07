@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            margin-top: 1em;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        .container {
+            padding: 2em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2em;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 0.5em;
+            text-align: center;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 0.5em;
+            margin: 0.5em 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            margin-top: 2em;
+        }
+        img {
+            display: block;
+            max-width: 150px;
+            margin: 0 auto 1em auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Welcome!</h2>
+            <img src="AGD.jpg" alt="My Photo">
+            <p>Hello, I'm David, a passionate web developer. I specialize in creating interactive, responsive, and user-friendly web applications.</p>
+            <p>You can connect with me on:</p>
+            <ul>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://linkedin.com/in" target="_blank">LinkedIn</a></li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Languages and Frameworks</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>Language</th>
+                        <th>Framework</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Python</td>
+                        <td>Django</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>JavaScript</td>
+                        <td>React</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>PHP</td>
+                        <td>Laravel</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>HTML/CSS</td>
+                        <td>Bootstrap</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 AGD. All rights reserved.</p>
+    </footer>
+</body>
+</html>
